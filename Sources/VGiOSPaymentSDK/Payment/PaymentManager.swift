@@ -10,7 +10,7 @@ import Foundation
 public class PaymentManager {
     public static let shared = PaymentManager()
     
-    // Add this property to support dependency injection
+    // support dependency injection
     private var apiClient: APIClient
     
     // Custom initializer for dependency injection

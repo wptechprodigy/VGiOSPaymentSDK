@@ -1,0 +1,12 @@
+//
+//  File.swift
+//  
+//
+//  Created by waheedCodes on 23/04/2025.
+//
+
+module CommonCrypto [system] {
+    header "/usr/include/CommonCrypto/CommonCrypto.h"
+    link "CommonCrypto"
+    export *
+}
