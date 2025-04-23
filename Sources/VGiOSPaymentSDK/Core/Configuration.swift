@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Configuration {
+public struct Configuration {
     let publicKey: String
     let encryptionKey: String
     let environment: Environment
