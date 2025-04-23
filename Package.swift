@@ -22,9 +22,6 @@ let package = Package(
             dependencies: [],
             cSettings: [
                 .headerSearchPath("Modules/CommonCrypto")
-            ],
-            linkerSettings: [
-                .linkedLibrary("CommonCrypto")
             ]
         ),
         .testTarget(
